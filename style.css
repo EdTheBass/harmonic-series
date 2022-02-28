@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "rubikBold";
+    src: url("../RubikFont/static/Rubik-Bold.ttf");
+}
+@font-face {
+    font-family: "rubikMedium";
+    src: url("../RubikFont/static/Rubik-Medium.ttf");
+}
+@font-face {
+    font-family: "rubikLight";
+    src: url("../RubikFont/static/Rubik-Light.ttf");
+}
+
+p {
+    font-family: "rubikMedium";
+    font-size: 150%;
+}
+
+label {
+    font-family: "rubikLight";
+    font-size: 100%;
+}
+
+.seriesSliders {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 1100px;
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.pianoDiv {
+    top: 0px;
+}
+
+.waveDiv {
+    top:200px;
+}

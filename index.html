@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Harmonic Series</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="simpleTones.js"></script>
+  </head>
+  <body>
+    
+    <div class="seriesSliders"><!-- 
+        <div class="pianoDiv">
+            <canvas id="piano" width="800px" height="200px"></canvas>
+        </div> -->
+        <div class="waveDiv">
+            <canvas id="wave" width="800px" height="150px"></canvas>
+        </div>
+        <p id="noteOut"></p>
+        <input type="range" min="1" max="1000" value="440" class="slider" id="note">
+        <br><br>
+        <input type="text" id="frequencyInp">
+        <button onclick="setHz();">Set Frequency</button>
+        <button onclick="octaveUp();">Octave</button>
+        <button onclick="fifthUp();">Fifth</button>
+        <button onclick="fourthUp();">Fourth</button>
+        <button onclick="thirdUp();">Major Third</button>
+        <button onclick="minorThirdUp();">Minor Third</button>
+        <br><br>
+        <input type="checkbox" id="addWaves" name="addWaves"></input>
+        <label for="addWaves">Add waves</label><br>
+
+        <input type="checkbox" id="showHarmonics" name="showHarmonics"></input>
+        <label for="showHarmonics">Show harmonics</label><br>
+
+        <input type="checkbox" id="squareWave" name="squareWave"></input>
+        <label for="squareWave">Square wave</label><br>
+
+        <p id="volOut"></p>
+        <input type="range" min="0" max="100" value="50" class="slider" id="vol">
+
+        <p id="lenOut"></p>
+        <input type="range" min="0" max="10" value="1" class="slider" id="length">
+
+        <br>
+        <p id="out1"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series1">
+        <p id="out2"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series2">
+        <p id="out3"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series3">
+        <p id="out4"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series4">
+        <p id="out5"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series5">
+        <p id="out6"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series6">
+        <p id="out7"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series7">
+        <p id="out8"></p>
+        <input type="range" min="0" max="100" value="1" class="slider" id="series8">
+
+        <script src="wave.js"></script>
+        <script src="piano.js"></script>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
