@@ -9,7 +9,9 @@ The wave(s) at the top shows the harmonics. The fundamental note is shown in bla
 The top slider is used to alter the pitch of the fundamental note. The input box and adjacent "set frequency" button can be used to type in a frequency to be played. The buttons to the right of that change the pitch of the note to various intervals.
 
 **Add waves** - when ticked, this adds together the sine waves of the fundamental, and all the harmonics. When unticked (if Show Harmonics is ticked), the fundamental and the harmonics are shown individually.
+
 **Show harmonics** - when ticked, this will show the fundamental and the harmonics individually, when "Add waves" is unticked.
+
 **Square wave** - this changes the wave type from sine to square, altering both the sound of the wave and the appearance on the graph.
 
 The slider below controls the relative volume of the sound. BE CAREFUL, this can get quite loud. I would recommend not going above 0.5, unless the sound in your system is quite quiet.
